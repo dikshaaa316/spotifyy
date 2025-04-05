@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+body{
+  background-color: black;
+}
+.userform {
+  width:25%;
+  margin:50px auto;
+  background-color: white;
+  padding:40px;
+  border-radius:10px;
+  box-shadow: 1px 1px 8px;
+}
+.heading{
+  font-size: larger;
+  font-weight: bold;
+}
+.loginform .input{
+width: 50%;
+display:flex;
+flex-direction: column;
+padding: 24px;
+width: 320px;
+text-align: left;
+}
+.loginform .input .label{
+  margin-top:12px;
+  margin-bottom: 12px;
+  padding:10px;
+
+}
+.loginform .input .input{
+  margin-top:12px;
+  padding:10px;
+  margin-bottom: 12px;
+}
+.btn{
+  color:white;
+  margin-top:12px;
+  padding:10px;
+  border-radius:5px;
+  font-weight: bold;
+  cursor:pointer;
+  border:none; 
+  background-color: rgb(38, 154, 38);
+  
+
+}
+.btn:hover{
+  background-color: #148512;
+}
+
